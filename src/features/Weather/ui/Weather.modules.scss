@@ -1,0 +1,29 @@
+.container {
+  color: white;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.time {
+  color: #9CA3AFFF;
+  font-size: var(--font-size-l);
+}
+
+.temp {
+  font-size: 80px;
+}
+
+.feel {
+
+}
+
+.weatherCard {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.row {
+  width: 200px;
+  justify-content: space-between;
+}

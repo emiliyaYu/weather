@@ -1,0 +1,12 @@
+@import "variables/global";
+@import "reset";
+.app {
+  font: var(--font-m);
+
+  min-height: 100vh;
+  text-decoration: none;
+  background-color: black;
+
+  display: flex;
+  flex-direction: column;
+}

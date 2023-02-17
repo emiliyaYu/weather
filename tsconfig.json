@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "noImplicitAny": true,
+        "module": "ESNext", // модульная сборка
+        "target": "es5",
+        "jsx": "react-jsx",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true, // позволяет работать с пакетами с помощью обычного import
+        "allowSyntheticDefaultImports": true, // позволяет использовать обычный import заместо import * (если какая-либо библиотека не имеет default import)
+        "baseUrl": "src",
+        "paths": {
+            "app/*": ["app/*"],
+            "appStyles/*": ["app/styles/*"],
+            "pages/*": ["pages/*"],
+            "widgets/*": ["widgets/*"],
+            "shared/*": ["shared/*"],
+            "features/*": ["features/*"],
+        }
+    },
+    "ts-node": {
+        "compilerOptions": {
+            "module": "CommonJs"
+        },
+        "include": [
+            "src"
+        ]
+    }
+}

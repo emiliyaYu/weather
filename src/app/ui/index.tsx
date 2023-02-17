@@ -1,0 +1,1 @@
+export { AppLayoutAsync as AppLayout } from './AppLayout/AppLayout.async';
